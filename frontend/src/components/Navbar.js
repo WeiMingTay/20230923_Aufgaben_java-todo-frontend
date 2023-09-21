@@ -24,8 +24,9 @@ const Nav = styled.nav`
     color: hotpink;
   }
 
-  a.active {
+  a.active, a.hover {
     background: hotpink;
     color: white;
   }
+ 
 `

@@ -32,4 +32,5 @@ const Wrapper = styled.form`
   display: grid;
   grid-template-columns: 1fr min-content;
   padding: 12px;
+  
 `
