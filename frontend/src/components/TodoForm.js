@@ -43,5 +43,6 @@ const Wrapper = styled.form`
   select {
     display: block;
     width: 100%;
+
   }
 `

@@ -30,6 +30,23 @@ export default function TodoActions({ todo, onAdvance, onDelete }) {
 const Wrapper = styled.section`
   display: flex;
   justify-content: space-between;
+  
+  a {
+    text-decoration: none;
+    color: hotpink;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+   
+  }
+  button {
+    padding: 0.5rem 1rem;
+    background-color: hotpink;  
+    color: white;
+    border: none;
+    border-radius: .5rem;
+  }
 `
 
 const ButtonComp = styled.button`

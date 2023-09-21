@@ -30,7 +30,14 @@ export default function NewTodo({ onAdd }) {
 
 const Wrapper = styled.form`
   display: grid;
-  grid-template-columns: 1fr min-content;
+  grid-template-rows: 3fr 1fr;
   padding: 12px;
-  
+  gap: 1rem;
+  input {
+    height: 4rem;
+  }
+button:hover {
+  background-color: hotpink;
+  color: white;
+}
 `

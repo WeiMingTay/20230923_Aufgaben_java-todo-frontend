@@ -19,14 +19,20 @@ const Nav = styled.nav`
   justify-content: space-evenly;
 
   a {
-    padding: 4px;
+    padding: .5rem 2rem;
     text-decoration: none;
-    color: hotpink;
+  color: hotpink;
   }
 
-  a.active, a.hover {
+  a.active{
     background: hotpink;
     color: white;
   }
+  a:hover {
+    box-shadow: inset 0 0 10px 1px hotpink;
+    border-radius: 5rem;
+  }
+  
+
  
 `
