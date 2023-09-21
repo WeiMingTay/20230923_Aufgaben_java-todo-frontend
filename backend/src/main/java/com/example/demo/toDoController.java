@@ -17,11 +17,13 @@ public class toDoController {
     public List<Todo> getAllToDo() {
         return this.todoService.getAllToDos();
     }
-    @GetMapping("/details/{id}")
-    public Todo getToDoById(@RequestParam String id) {
+    //
+    // noch in Arbeit
+    //
+    @GetMapping("/{id}")
+    public Todo getToDoById(@PathVariable String id) {
         return this.todoService.getToDoById(id);
     }
-
     @PostMapping
     public Todo createToDo(@RequestBody Todo todo) {
         return todoService.createToDo(todo);
